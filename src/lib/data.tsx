@@ -28,7 +28,7 @@ const yearsSinceDate = (date: Date) => {
 
 const socials: Social[] = [
     {
-        href: "https://github.com/yatochka",
+        href: "https://github.com/yatochka-dev",
         icon: <SiGithub className={iconClass}/>,
     },
     {
@@ -36,12 +36,8 @@ const socials: Social[] = [
         icon: <Mail className={iconClass}/>,
     },
     {
-        href: "https://www.linkedin.com/in/yatochka/",
+        href: "https://www.linkedin.com/in/philip-sagan-896586267/",
         icon: <Linkedin className={iconClass}/>,
-    },
-    {
-        href: "",
-        icon: <SiInstagram className={iconClass}/>,
     },
     {
         href: "https://discord.com/channels/@me/686207718822117463",

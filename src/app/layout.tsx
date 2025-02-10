@@ -3,6 +3,7 @@ import "~/styles/globals.css";
 import { type Metadata } from "next";
 import {Poppins} from "next/font/google";
 import { TRPCReactProvider } from "~/trpc/react";
+import React from "react";
 
 export const metadata: Metadata = {
   title: "Create T3 App",
@@ -22,11 +23,15 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${pops.className} dark`}>
-      <body>
-       <main className={'px-32 py-16'}>
-           <TRPCReactProvider>{children}</TRPCReactProvider>
-       </main>
-      </body>
+    <body>
+    <div className={'z-[9999] text-7xl -rotate-[35deg] absolute top-[40%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-center'}>
+        WORK IN PROGRESS 🚧
+    </div>
+    <main className={'px-32 py-16'}>
+
+        <TRPCReactProvider>{children}</TRPCReactProvider>
+    </main>
+    </body>
     </html>
   );
 }

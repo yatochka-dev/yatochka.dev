@@ -9,6 +9,7 @@ import {Timeline} from "~/app/_components/timeline";
 export default function Page() {
   return (
       <div className="md:min-h-screen h-full grid grid-cols-6 gap-12">
+
         <div className="col-span-2 p-2 space-y-7">
           <div id={'me-section'} className={""}>
               <div>
